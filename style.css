@@ -15,10 +15,12 @@
 body{
     padding: 9vh 9vw;
     font-family: muli;
-    background-image: url(Assets/images/element.png), url(Assets/images/Frame\ \(7\).png), url(Assets/images/element\ \(1\).png);
+    background-image: url(Assets/images/element.png), 
+                      url(Assets/images/Frame\ \(7\).png), 
+                      url(Assets/images/element\ \(1\).png), url(Assets/images/element.png);
     background-repeat: no-repeat;
-    background-size: 50px 70px, 800px 1200px, 70px 70px;
-    background-position: 4px 140px, 0px 800px, 1080px 1446px;
+    background-size: 50px 70px, 800px 1200px, 70px 70px, 50px 70px;
+    background-position: 4px 180px, 0px 800px, 1080px 1446px, 1200px 2706px;
 }
 
 /* .container{
