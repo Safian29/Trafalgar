@@ -1305,7 +1305,6 @@ margin-bottom: 80px;
                     }
 
                     .sec6Box{
-                    border: 1px solid black;
                     border-radius: 20px;
                     background-color: #FFFFFF;
                     width: 310px;
@@ -1326,8 +1325,50 @@ margin-bottom: 80px;
                     font-size: 21px;
                     color: #000000;
                     line-height: 32px;
+                    margin-top: 10px;
                     }
 
                     .h62{
                     width: 275px;
+                    }
+
+                    .sec6Btext1, .sec6Btext2, .sec6Btext3{
+                    font-weight: 300;
+                    font-size: 16px;
+                    color: #7D7987;
+                    line-height: 28px;
+                    margin-top: 5px;
+                    width: 270px;
+                    margin-bottom: 14px;
+                    }
+
+                    .sec6Btext2, .sec6Btext3{
+                    width: 280px;
+                    }
+
+                    .sec6A{
+                    font-weight: 600;
+                    font-size: 17px;
+                    color: #4089ED;
+                    line-height: 28px;
+                    text-decoration: none;
+                    }
+
+                    .sec6BtnD{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    }
+                    
+                    .sec6Btn{
+                    border: 2px solid #458FF6;
+                    border-radius: 55px;
+                    color: #458FF6;
+                    font-size: 18px;
+                    font-weight: 700;
+                    width: 200px;
+                    height: 60px;
+                    margin-top: 80px;
+                    background-color: #FFFFFF;
+                    /* margin-left: 420px; */
                     }
