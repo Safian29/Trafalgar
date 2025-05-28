@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 0px solid black;
+    border: 1px solid black;
 }
 
 @font-face {
@@ -18,18 +18,23 @@ body{
     background-image: url(Assets/images/element.png), 
                       url(Assets/images/Frame\ \(7\).png), 
                       url(Assets/images/element\ \(1\).png), 
-                      url(Assets/images/element.png);
+                      url(Assets/images/element.png), 
+                      url(Assets/images/Group.png);
+
     background-repeat: no-repeat;
 
     background-size: 50px 70px, 
                      800px 1200px, 
                      70px 70px, 
-                     50px 70px;
+                     50px 70px,
+                     80px 70px;
 
     background-position: 4px 180px, 
                          0px 800px, 
                          1080px 1446px, 
-                         1200px 2706px;
+                         1200px 2706px,
+                         27px 3800px;
+
 }
 
 /* .container{
@@ -944,3 +949,385 @@ header{
     height: 210px;
 }
 }
+
+/* FIFTH SECTION */
+
+.sec5container{
+    background-color: #5A98F2;
+    background-image: linear-gradient(to top right, #5A98F2, #67C3F3);
+    position: relative;
+    right: 60px;
+    width: 112%;
+    margin-top: 160px;
+    border-radius: 24px;
+    padding: 50px 90px 85px 90px;
+   
+}
+
+.sec5Head{
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 48px;
+}
+   
+
+.sec5Rec{
+    margin-left: 47%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+
+.dotsBimg{
+    width: 80px;
+    height: 70px;
+    position: relative;
+    left: 493px;
+    bottom: 114px;
+}
+
+.rNl{
+    display: flex;
+}
+
+/* left */
+
+.sec5left{
+    width: 52%;
+    display: flex;
+}
+
+.sec5leftHD{
+    margin-left: 30px;
+}
+
+.sec5leftH{
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.sec5leftText{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFFD9;
+    margin-top: 5px;
+}
+
+
+/* right */
+
+.sec5right{
+    width: 48%;
+}
+
+.sec5rightText{
+    width: 90%;
+    line-height: 30px;
+    color: #FFFFFFE5;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+/* slideshow icons */
+
+.arrowNdots{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 40px;
+}
+
+.prev, .next{
+    cursor: pointer;
+    opacity: 60%;
+    user-select: none;
+}
+
+                   .prev:hover{
+                    opacity: 100%
+                   }
+                   .next:hover {
+                    opacity: 100%;
+                   }
+
+.prevImg, .nextImg{
+    height: 17px;
+    width: 25px;
+}
+
+.dotsD{
+    display: flex;
+}
+
+.dots{
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    margin: 0 6px;
+    background-color: #5B9BF3;
+    opacity: 50%;
+    border: 1px solid #5B9BF3;
+    border-radius: 50%;
+}
+
+/* RESPONSIVENESS */
+
+@media (max-width: 1142px){
+     
+    .sec5container{
+    width: 100%;
+    position: relative;
+    right: 0px;
+    }
+    
+    /* left */
+
+    .sec5left{
+    width: 52%;
+    display: block;
+}
+
+    .sec5leftHD{
+    margin-left: 0px;
+}
+
+    /* right */
+
+    .sec5rightText{
+    width: 100%;
+    height: 100%;
+    }
+}
+
+@media (max-width: 1042px){
+ 
+    .rNl{
+    display: block;
+}
+
+    /* left */
+
+    .sec5left{
+    width: 70%;
+    margin: auto;
+}
+
+    /* right */
+
+    .sec5right{
+    margin-top: 60px;
+    width: 100%;
+}
+
+    .sec5rightText{
+    width: 70%;
+    margin: auto;
+    }
+
+}
+
+@media (max-width: 900px){
+    
+    .sec5Head{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* left */
+
+    .manImg{
+        width: 130px;
+        height: 130px;
+    }
+
+    .sec5leftH{
+    margin-top: 20px;
+}
+}
+
+@media (max-width: 700px){
+    
+    .sec5Head{
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .sec5Rec{
+    margin-left: 44%;
+    margin-bottom: 35px;
+
+}
+
+    /* left */
+
+    .sec5left{
+        width: 100%;
+    }
+
+    .manImg{
+        width: 120px;
+        height: 120px;
+    }
+
+    .sec5leftH{
+    margin-top: 20px;
+    font-size: 19.5px;
+}
+
+    .sec5leftText{
+    font-size: 16px;
+    }
+
+    /* right */
+
+    .sec5right{
+    width: 100%;
+    }
+
+    .sec5rightText{
+    font-size: 17px;
+    width: 100%;
+    }
+}
+
+@media (max-width: 555px){
+
+    .sec5Rec{
+    margin-left: 47%;
+    margin-bottom: px;
+
+}
+}
+
+@media (max-width: 552px){
+    
+    .sec5Rec{
+    margin-left: 40%;
+    margin-top: -33px;
+
+}
+
+}
+
+@media (max-width: 518px){
+
+    .sec5container{
+    padding: 50px 30px 65px 30px;
+    }
+
+    .sec5Rec{
+    margin: 0px 0px 30px 40%;
+}
+}
+
+@media (max-width: 514px){
+
+    .sec5Rec{
+    margin: -60px 0px 40px 40%;
+}
+    /* left */
+
+    .sec5left{
+    margin-top: -25px;
+    }
+    .manImg{
+    width: 100px;
+    height: 100px;
+    }
+
+    .sec5leftH{
+    margin-top: 17px;
+    font-size: 19.5px;
+}
+
+    .sec5leftText{
+    font-size: 15px;
+    }
+
+    /* right */
+
+    .sec5right{
+    margin-top: 15px;
+    }
+
+    .sec5rightText{
+    font-size: 15px;
+    }
+
+    .arrowNdots{
+    width: 220px;
+}
+
+}
+
+@media (max-width: 370px){
+
+    .sec5Head{
+    font-size: 22px;
+    line-height: 32px;
+    }
+}
+
+@media (max-width: 369px){
+
+    .sec5Rec{
+    margin: 0px 0px -20px 40%;
+}
+}
+
+/* SIXTH SECTION */
+
+.sec6Head{
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+margin-top: 160px;
+}
+
+.sec6Rec{
+margin-left: 47%;
+width: 70px;
+margin-top: 30px;
+margin-bottom: 80px;
+}
+
+                    .sec6container{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 27px 27px;
+                    justify-content: center;
+                    }
+
+                    .sec6Box{
+                    border: 1px solid black;
+                    border-radius: 20px;
+                    background-color: #FFFFFF;
+                    width: 310px;
+                    height: 450px;
+                    box-shadow: 10px 40px 50px #E5E9F666;
+                    }
+
+                    .sec6Bimg{
+                        width: 100%;
+                    }
+
+                    .sec6BtextD1, .sec6BtextD2, .sec6BtextD3{
+                    padding: 0px 30px 0px 25px;
+                    }
+
+                    .sec6BHtext{
+                    font-weight: 700;
+                    font-size: 21px;
+                    color: #000000;
+                    line-height: 32px;
+                    }
+
+                    .h62{
+                    width: 275px;
+                    }
