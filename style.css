@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 @font-face {
@@ -12,7 +12,7 @@
     src: url(Assets/font/muli.regular.ttf);
 }
 
-body{
+.body2{
     padding: 9vh 9vw;
     font-family: muli;
     background-image: url(Assets/images/element.png), 
@@ -21,7 +21,8 @@ body{
                       url(Assets/images/element.png), 
                       url(Assets/images/Group.png), 
                       url(Assets/images/element\ \(2\).png),
-                      url(Assets/images/element\ \(3\).png);
+                      url(Assets/images/element\ \(3\).png),
+                      url(Assets/images/element\ \(4\).png);
 
     background-repeat: no-repeat;
 
@@ -31,6 +32,7 @@ body{
                      50px 70px,
                      80px 70px,
                      600px 780px,
+                     70px 70px,
                      70px 70px;
 
     background-position: 4px 180px, 
@@ -39,7 +41,8 @@ body{
                          1200px 2706px,
                          27px 3800px,
                          850px 4150px,
-                         112px 4325px;
+                         112px 4325px,
+                         1020px 5070px;
 
 }
 
@@ -1376,7 +1379,7 @@ margin-bottom: 80px;
                     height: 60px;
                     margin-top: 80px;
                     background-color: #FFFFFF;
-                    /* margin-left: 420px; */
+                    margin-bottom: 120px;
                     }
 
 
@@ -1487,3 +1490,119 @@ margin-bottom: 80px;
     width: 210px;
     }
 }
+
+/* SEVENTH SECTION */
+
+footer{
+background-color: #5A98F2;
+}
+
+.footerBody{
+  background-color: #5A98F2;
+  background-image: linear-gradient(#67C3F3, #5A98F2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 40px;
+  padding: 110px 200px 45px 200px;
+  font-family: muli;
+}
+
+.dotsBimgg{
+width: 100px;
+height: 70px;
+position: relative;
+right: 14px;
+bottom: -3px;
+}
+
+                     .bigT{
+                     display: flex;
+                     align-items: center;
+                     gap: 1rem;
+                     }
+                     
+                     .bigTchild{
+                     background-color: #FFFFFF;
+                     color: #5B9BF3;
+                     border-radius: 100px;
+                     width: 50px;
+                     height: 50px;
+                     padding: 10px 17px;
+                     font-size: 26px;
+                     font-weight: 700;
+                     }
+                     
+                     .bigTchild2{
+                     font-size: 24px;
+                     font-weight: 700;
+                     color: #FFFFFF;
+                     }
+
+                     .fsp1{
+                     font-weight: 300;
+                     font-size: 18px;
+                     color: #FFFFFF;
+                     margin-top: 15px;
+                     margin-bottom: 35px;
+                     width: 400px;
+                     }
+
+                     .fsp2{
+                     font-weight: 300;
+                     font-size: 16px;
+                     color: #FFFFFF;
+                     }
+
+
+.fsec2H{
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+margin-top: 15px;
+}
+
+.fsec2T{
+text-decoration: none;
+font-weight: 300;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+      .aaa{
+      margin-top: 23px;
+      }
+      
+      .aa{
+      margin-top: 11px;
+      }
+
+                     .fsec3H{
+                     font-weight: 700;
+                     font-size: 20px;
+                     color: #FFFFFF;
+                     margin-top: 15px;
+                     }
+                     
+                     .fsec3T{
+                     text-decoration: none;
+                     font-weight: 300;
+                     font-size: 18px;
+                     color: #FFFFFF;
+                     }
+
+.fsec4H{
+font-weight: 700;
+font-size: 20px;
+color: #FFFFFF;
+margin-top: 15px;
+}
+
+.fsec4T{
+text-decoration: none;
+font-weight: 300;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+
+
