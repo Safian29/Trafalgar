@@ -12,7 +12,9 @@
     src: url(Assets/font/muli.regular.ttf);
 }
 
+
 .body2{
+    width: 100%;
     padding: 9vh 9vw;
     font-family: muli;
     background-image: url(Assets/images/element.png), 
@@ -1495,6 +1497,7 @@ margin-bottom: 80px;
 
 footer{
 background-color: #5A98F2;
+width: 100%;
 }
 
 .footerBody{
@@ -1604,5 +1607,53 @@ font-size: 18px;
 color: #FFFFFF;
 }
 
+@media (max-width: 804px){
 
+    .fsec1{
+    width: 245px;
+    }
 
+    .fsp1{
+    width: 236px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .fsec1, .fsec2, .fsec3, .fsec4{
+    position: relative;
+    right: 180px;
+    }
+
+    .bigTchild{
+    font-size: 22px;
+    width: 48px;
+    height: 46px;
+    }
+    
+    .bigTchild2{
+    font-size: 20px;
+    }
+    .fsp1{
+    font-size: 15px;
+    }
+    .fsp2{
+    font-size: 13px;
+    }
+
+                      .fsec2H, .fsec3H, .fsec4H{
+                      font-size: 17px;
+                      }
+
+                      .fsec2T, .fsec3T, .fsec4T{
+                      font-size: 15px;
+                      }
+
+}
+
+@media (max-width: 404px){
+
+    .footerBody{
+    padding-right: 100px;
+    }
+}
