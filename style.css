@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 @font-face {
@@ -14,11 +14,13 @@
 
 body{
     width: 100vw;
+    overflow-x: hidden;
+    height: fit-content;
 }
 
 .body2{
-    width: 100%;
-    padding: 9vh 9vw;
+    width: fit-content;
+    padding: 9vh 16vw;
     font-family: muli;
     background-image: url(Assets/images/element.png), 
                       url(Assets/images/Frame\ \(7\).png), 
@@ -1610,6 +1612,8 @@ font-size: 18px;
 color: #FFFFFF;
 }
 
+/* RESPONSIVENESS */
+
 @media (max-width: 804px){
 
     .fsec1{
@@ -1660,3 +1664,5 @@ color: #FFFFFF;
     padding-right: 100px;
     }
 }
+
+
