@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 0px solid black;
+    border: 1px solid black;
 }
 
 @font-face {
@@ -12,6 +12,9 @@
     src: url(Assets/font/muli.regular.ttf);
 }
 
+body{
+    width: 100vw;
+}
 
 .body2{
     width: 100%;
