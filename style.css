@@ -166,6 +166,7 @@ header{
 .fImg{
     width: 100%;
     height: 33rem;
+    object-fit: contain;
 }
 
 /* RESPONSIVENESS */
@@ -183,6 +184,7 @@ header{
    /* main */
     .sec1main{
         display: block;
+        margin-top: 0;
     }
 
     /* left */
@@ -209,13 +211,14 @@ header{
 }
 
 .imgContainer{
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 
 .fImg{
     width: 100%;
     height: 33rem;
+    object-fit: contain;
 }
 
 }
@@ -233,10 +236,15 @@ header{
 
 @media (max-width: 850px){
 
+    .body2{
+    padding: 6vh 11vw;
+}
+
     /* left */
 
     .leftHead{
         font-size: 44px;
+        margin-top: 30px;
     }
 
     .leftText{
@@ -248,15 +256,22 @@ header{
     .fImg{
     width: 100%;
     height: 27rem;
+    object-fit: contain;
 }
 }
 
 @media (max-width: 650px){
+
+    .body2{
+    padding: 3vh 6vw;
+}
     
     /* left */
 
     .leftHead{
-        font-size: 40px;
+        font-size: 30px;
+        margin-top: 15px;
+        line-height: 34px;
     }
 
     .leftText{
@@ -268,34 +283,60 @@ header{
     font-size: 13px;
     width: 6.6rem;
     height: 40px;
+    margin-top: 20px;
 }
 
     /* right */
 
+    .right{
+    margin-top: 30px;
+}
+
     .fImg{
     width: 100%;
     height: 24rem;
+    object-fit: contain;
 }
 }
 
 @media (max-width: 550px){
 
+    .traChild{
+    width: 35px;
+    height: 35px;
+    padding: 5px 12px;
+    font-size: 20px;
+}
+
+    .tra2{
+    font-size: 18px;
+}
+
+    .navMenuImg{
+    width: 35px;
+    height: 35px;
+}
+
+
+    /* right */
+
     .fImg{
     width: 100%;
     height: 21rem;
+    object-fit: contain;
 }
 }
 
 @media (max-width: 450px){
 
+    .body2{
+    padding: 1.5vh 3vw;
+}
+
     /* left */
 
     .leftHead{
-        font-size: 36px;
-    }
-
-    .leftText{
-        font-size: 13px;
+        font-size: 25px;
     }
 
     .leftButton{
@@ -310,6 +351,7 @@ header{
     .fImg{
     width: 100%;
     height: 18rem;
+    object-fit: contain;
 }
 }
 
@@ -318,6 +360,7 @@ header{
     .fImg{
     width: 100%;
     height: 15rem;
+    object-fit: contain;
 }
 }
 
@@ -329,7 +372,7 @@ header{
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    margin-top: 140px;
+    margin-top: 100px;
     color: #000000;
 }
 
@@ -350,6 +393,7 @@ header{
     font-size: 18px;
     font-weight: 300;
     margin: auto;
+    line-height: 30px;
 }
 
 
@@ -373,6 +417,9 @@ header{
     padding: 60px 30px 0px 25px;
 }
 
+.sec2Bimg{
+    object-fit: contain;
+}
                 
          .h6_1{
              margin: 30px 0px 30px 0px;
@@ -458,6 +505,10 @@ header{
 /* RESPONSIVENESS */
 
 @media (max-width: 900px){
+
+    .sec2headText{
+    margin-top: 60px;
+}
     
     .sec2Btn{
     font-size: 16px;
@@ -467,13 +518,52 @@ header{
 }
 }
 
+@media (max-width: 800px){
+
+    .sec2container{
+    margin-top: 40px;
+    }
+}
+
+@media (max-width: 650px){
+
+    .sec2headText{
+    font-size: 30px;
+}
+
+    .sec2Text{
+    font-size: 16px;
+    }
+
+    .sec2Rec{
+    margin-left: 48%;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
+
 @media (max-width: 600px){
     
     .sec2Btn{
     font-size: 13px;
     width: 130px;
     height: 35px;
+    margin-top: 40px;
     
+}
+}
+
+@media (max-width: 450px){
+
+    .sec2headText{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+   .sec2Rec{
+    margin-left: 46%;
 }
 }
 
@@ -488,6 +578,7 @@ header{
     .sec2Bimg{
         width: 65px;
         height: 75px;
+        object-fit: contain;
     }
 
     .sec2BHtext{
@@ -510,7 +601,7 @@ header{
     display: flex;
     gap: 5%;
     width: 100%;
-    margin-top: 160px;
+    margin-top: 100px;
 }
 
 /* LEFT */
@@ -527,6 +618,7 @@ header{
 .sec3Img{
     width: 100%;
     height: 500px;
+    object-fit: contain;
 }
 
 /* RIGHT */
@@ -536,7 +628,7 @@ header{
 }
 
 .sec3HTextD{
-    width: 90%;
+    width: 100%;
 }
 
 .sec3HText{
@@ -592,6 +684,7 @@ header{
     .sec3Img{
     width: 100%;
     height: 500px;
+    object-fit: contain;
 }
 
     /* right */
@@ -608,6 +701,7 @@ header{
     
     .sec3HText{
         text-align: center;
+        margin-top: 0px;
     }
 
     .sec3RecD{
@@ -629,12 +723,8 @@ header{
 @media (max-width: 900px){
 
     .sec3container{
-    margin-top: 100px;
+    margin-top: 60px;
 }
-
-    .sec3HText{
-    font-size: 32px;
-    }
 
     .sec3Text{
     font-size: 15px;
@@ -648,15 +738,18 @@ header{
 }
 
 @media (max-width: 800px){
-.sec3Img{
+
+    .sec3Img{
     height: 480px;
+    object-fit: contain;
 }
 }
 
 @media (max-width: 700px){
 
     .sec3HText{
-    font-size: 28px;
+    font-size: 30px;
+    line-height: 34px;
     }
 
     .sec3Text{
@@ -671,8 +764,16 @@ header{
 }
 
 @media (max-width: 650px){
-.sec3Img{
+
+    .sec3Img{
     height: 400px;
+    object-fit: contain;
+}
+
+    .sec3Rec{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 }
 
@@ -682,13 +783,14 @@ header{
 
     .sec3Img{
     height: 350px;
+    object-fit: contain;
 }
 
     /* right */
 
-    .sec3HText{
+    /* .sec3HText{
     font-size: 24px;
-    }
+    } */
 
     .sec3Text{
     font-size: 13px;
@@ -707,16 +809,22 @@ header{
 }
 
 @media (max-width: 450px){
-.sec3Img{
+
+    .sec3HText{
+    font-size: 25px;
+    }
+
+    .sec3container{
+    margin-top: 40px;
+}
+
+    .sec3Img{
     height: 280px;
+    object-fit: contain;
 }
 }
 
 @media (max-width: 420px){
-
-    .sec3HText{
-    line-height: 30px;
-    }
 
     .sec3Btn{
     width: 100px;
@@ -726,8 +834,9 @@ header{
 }
 
 @media (max-width: 380px){
-.sec3Img{
+    .sec3Img{
     height: 230px;
+    object-fit: contain;
 }
 }
 
@@ -739,18 +848,18 @@ header{
 .sec4container{
     display: flex;
     width: 100%;
-    gap: 5%;
-    margin-top: 160px;
+    /* gap: 5%; */
+    margin-top: 100px;
 }
 
 /* left */
 
 .sec4left{
-    width: 40%;
+    width: 45%;
 }
 
 .sec4HTextD{
-    width: 70%;
+    width: 90%;
 }
 
 .sec4HText{
@@ -804,8 +913,17 @@ header{
 }
 
 .sec4Img{
-    width: 605px;
+    width: 550px;
     height: 500px;
+    object-fit: contain;
+}
+
+@media (max-width: 1150px){
+     
+    .sec4Img{
+    width: 100%;
+}
+
 }
 
 @media (max-width: 1040px){
@@ -823,10 +941,12 @@ header{
     .sec4HTextD{
     width: 100%;
     display: block;
+    
     }
 
     .sec4HText{
     text-align: center;
+    margin-top: 0px;
     }
 
     .sec4RecD{
@@ -851,7 +971,7 @@ header{
 
     .sec4right{
     width: 100%;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
     .sec4ImgD{
@@ -864,6 +984,7 @@ header{
     .sec4Img{
     width: 100%;
     height: 500px;
+    object-fit: contain;
 }
 
 }
@@ -871,7 +992,7 @@ header{
 @media (max-width: 900px){
 
     .sec4container{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
     .sec4HText{
@@ -890,8 +1011,9 @@ header{
 }
 
 @media (max-width: 800px){
-.sec4Img{
+    .sec4Img{
     height: 460px;
+    object-fit: contain;
 }
 }
 
@@ -899,6 +1021,7 @@ header{
 
     .sec4HText{
     font-size: 28px;
+    line-height: 34px;
     }
 
     .sec4Text{
@@ -907,24 +1030,22 @@ header{
 
     .sec4Btn{
     width: 150px;
-    height: 48px;
-    font-size: 15px;
     }
 }
 
 @media (max-width: 650px){
-.sec4Img{
+    .sec4Img{
     height: 380px;
+    object-fit: contain;
 }
+
+    .sec4Rec{
+    width: 50px;
+    margin: 20px 0px;
+    }
 }
 
 @media (max-width: 550px){
-
-    /* left */
-
-    .sec4HText{
-    font-size: 24px;
-    }
 
     .sec4Text{
     font-size: 13px;
@@ -937,28 +1058,30 @@ header{
     margin-top: 25px;
     }
 
-    .sec4Rec{
-    margin: 19px 0px;
-    }
-
     /* right */
 
     .sec4Img{
     height: 330px;
+    object-fit: contain;
 }
 }
 
 @media (max-width: 450px){
-.sec4Img{
+    .sec4Img{
     height: 260px;
+    object-fit: contain;
 }
+
+    .sec4container{
+    margin-top: 40px;
+    }
+
+    .sec4HText{
+    font-size: 25px;
+    }
 }
 
 @media (max-width: 420px){
-
-    .sec4HText{
-    line-height: 30px;
-    }
 
     .sec4Btn{
     width: 100px;
@@ -968,8 +1091,9 @@ header{
 }
 
 @media (max-width: 380px){
-.sec4Img{
+    .sec4Img{
     height: 210px;
+    object-fit: contain;
 }
 }
 
@@ -981,7 +1105,7 @@ header{
     position: relative;
     right: 60px;
     width: 112%;
-    margin-top: 160px;
+    margin-top: 100px;
     border-radius: 24px;
     padding: 50px 90px 85px 90px;
    
@@ -994,7 +1118,6 @@ header{
     text-align: center;
     line-height: 48px;
 }
-   
 
 .sec5Rec{
     margin-left: 47%;
@@ -1009,7 +1132,7 @@ header{
     position: relative;
     left: 375px;
     bottom: 95px;
-}
+} 
 
 .rNl{
     display: flex;
@@ -1108,6 +1231,11 @@ header{
     position: relative;
     right: 0px;
     }
+
+    .sec5Rec{
+    margin-top: 35px;
+
+}
     
     /* left */
 
@@ -1160,6 +1288,11 @@ header{
 }
 
 @media (max-width: 900px){
+
+    .sec5container{
+    margin-top: 60px;
+   
+}
     
     .sec5Head{
         font-size: 32px;
@@ -1226,20 +1359,11 @@ header{
 @media (max-width: 555px){
 
     .sec5Rec{
-    margin-left: 47%;
-    margin-bottom: px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 
 }
-}
-
-@media (max-width: 552px){
-    
-    .sec5Rec{
-    margin-left: 40%;
-    margin-top: -33px;
-
-}
-
 }
 
 @media (max-width: 518px){
@@ -1247,22 +1371,10 @@ header{
     .sec5container{
     padding: 50px 30px 65px 30px;
     }
-
-    .sec5Rec{
-    margin: 0px 0px 30px 40%;
-}
 }
 
 @media (max-width: 514px){
 
-    .sec5Rec{
-    margin: -60px 0px 40px 40%;
-}
-    /* left */
-
-    .sec5left{
-    margin-top: -25px;
-    }
     .manImg{
     width: 100px;
     height: 100px;
@@ -1293,19 +1405,17 @@ header{
 
 }
 
-@media (max-width: 370px){
+@media (max-width: 450px){
+
+    .sec5container{
+    margin-top: 40px;
+   
+}
 
     .sec5Head{
     font-size: 22px;
     line-height: 32px;
     }
-}
-
-@media (max-width: 369px){
-
-    .sec5Rec{
-    margin: 0px 0px -20px 40%;
-}
 }
 
 /* SIXTH SECTION */
@@ -1314,7 +1424,7 @@ header{
 font-weight: 700;
 font-size: 36px;
 text-align: center;
-margin-top: 160px;
+margin-top: 100px;
 }
 
 .sec6Rec{
@@ -1403,31 +1513,21 @@ margin-bottom: 80px;
 
 /* RESPONSIVENESS */
 
-@media (max-width: 950px){
+@media (max-width: 900px){
 
-    .sec6Head{
-    font-size: 32px;
-    }
+     .sec6Head{
+     margin-top: 60px;
 }
 
-@media (max-width: 850px){
-
-    .sec6Btn{         
-    font-size: 18px;
-    width: 160px;
-    height: 50px;
+    .sec6Btn{
+    font-size: 15px;
+    width: 170px;
+    height: 48px;
+    margin-bottom: 100px;
     }
 }
 
 @media (max-width: 750px){
-
-    .sec6Rec{
-    margin-bottom: 50px;
-    }
-
-    .sec6Head{
-    font-size: 29px;
-    }
 
     .sec6container{
     display: block;
@@ -1464,6 +1564,27 @@ margin-bottom: 80px;
 
 }
 
+@media (max-width: 700px){
+
+    .sec6Btn{
+    width: 150px;
+    }
+}
+
+@media (max-width: 650px){
+
+     .sec6Head{
+     font-size: 30px;
+     }
+
+     .sec6Rec{
+     margin-left: 48%;
+     width: 50px;
+     margin-top: 20px;
+     margin-bottom: 50px;
+     }
+}
+
 @media (max-width: 600px){
 
     .sec6Head{
@@ -1475,17 +1596,37 @@ margin-bottom: 80px;
     }
 }
 
+@media (max-width: 550px){
+
+    .sec6Btn{
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    }
+
+}
+
 @media (max-width: 450px){
 
     .sec6Head{
-    font-size: 21px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+    .sec6Rec{
+    margin-left: 46%;
     }
 }
 
 @media (max-width: 420px){
 
-    .sec6Rec{
-    margin-left: 41%;
+    .sec6Btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 40px;
     }
 
     .sec6Box{
@@ -1667,6 +1808,20 @@ color: #FFFFFF;
                       font-size: 15px;
                       }
 
+}
+
+@media (max-width: 550px){
+
+       .bigTchild{
+        width: 35px;
+        height: 35px;
+        padding: 5px 12px;
+        font-size: 20px;
+        }
+        
+        .bigTchild2{
+        font-size: 18px;
+        }
 }
 
 @media (max-width: 404px){
